@@ -35,5 +35,21 @@ void AFPSCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompon
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+    // Setup playere movement bindings
+    PlayerInputComponent->BindAxis("MoveForward", this, &AFPSCharacter::MoveForward);
+    PlayerInputComponent->BindAxis("MoveRight", this, &AFPSCharacter::MoveRight);
+
 }
 
+
+void AFPSCharacter::MoveForward(float Value)
+{
+    FVector Direction = FRotationMatrix(Controller->GetControlRotation()).GetScaledAxis(EAxis::X);
+    AddMovementInput(Direction, Value);
+}
+
+void AFPSCharacter::MoveRight(float Value)
+{
+    FVector Direction = FRotationMatrix(Controller->GetControlRotation()).GetScaledAxis(EAxis::Y);
+    AddMovementInput(Direction, Value);
+}
