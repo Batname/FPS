@@ -39,6 +39,10 @@ void AFPSCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompon
     PlayerInputComponent->BindAxis("MoveForward", this, &AFPSCharacter::MoveForward);
     PlayerInputComponent->BindAxis("MoveRight", this, &AFPSCharacter::MoveRight);
 
+    // Setup look bindings
+    PlayerInputComponent->BindAxis("Turn", this, &AFPSCharacter::AddControllerYawInput);
+    PlayerInputComponent->BindAxis("LookUp", this, &AFPSCharacter::AddControllerPitchInput);
+
 }
 
 
