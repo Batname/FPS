@@ -63,6 +63,9 @@ void AFPSCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompon
     // Setup action bindings
     PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AFPSCharacter::StartJump);
     PlayerInputComponent->BindAction("Jump", IE_Released, this, &AFPSCharacter::StopJump);
+
+    // Fire
+    PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AFPSCharacter::Fire);
 }
 
 
@@ -86,4 +89,9 @@ void AFPSCharacter::StartJump()
 void AFPSCharacter::StopJump()
 {
     bPressedJump = false;
+}
+
+void AFPSCharacter::Fire()
+{
+
 }

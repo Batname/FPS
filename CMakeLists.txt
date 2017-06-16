@@ -6426,6 +6426,7 @@ set(SOURCE_FILES
 	"${GAME_ROOT_PATH}/Source/FPS/FPS.cpp"
 	"${GAME_ROOT_PATH}/Source/FPS/FPSCharacter.cpp"
 	"${GAME_ROOT_PATH}/Source/FPS/FPSGameModeBase.cpp"
+	"${GAME_ROOT_PATH}/Source/FPS/FPSProjectile.cpp"
  )
 
 set(HEADER_FILES 
@@ -14762,6 +14763,7 @@ set(HEADER_FILES
 	"${GAME_ROOT_PATH}/Source/FPS/FPS.h"
 	"${GAME_ROOT_PATH}/Source/FPS/FPSCharacter.h"
 	"${GAME_ROOT_PATH}/Source/FPS/FPSGameModeBase.h"
+	"${GAME_ROOT_PATH}/Source/FPS/FPSProjectile.h"
  )
 
 set(CONFIG_FILES 

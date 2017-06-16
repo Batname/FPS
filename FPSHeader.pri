@@ -8332,5 +8332,6 @@ HEADERS += \
 	"$$FPSRootPath/Source/FPS/FPS.h" \
 	"$$FPSRootPath/Source/FPS/FPSCharacter.h" \
 	"$$FPSRootPath/Source/FPS/FPSGameModeBase.h" \
+	"$$FPSRootPath/Source/FPS/FPSProjectile.h" \
  
 

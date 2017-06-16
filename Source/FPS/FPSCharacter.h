@@ -45,4 +45,15 @@ public:
 	/** FPS arm mesh */
 	UPROPERTY(VisibleAnywhere, Category = Mesh)
 	USkeletalMeshComponent *FPSMesh;
+
+	UFUNCTION()
+	void Fire();
+
+	/** Gun muzzle's offset the camera location */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Gameplay)
+	FVector MuzzleOffset;
+
+	/** Projectile class to spawn */
+	UPROPERTY(EditDefaultsOnly, Category = Projectile)
+	TSubclassOf<class AFPSProjectile> ProjectileClass;
 };

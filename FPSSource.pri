@@ -6415,5 +6415,6 @@ SOURCES += \
 	"$$FPSRootPath/Source/FPS/FPS.cpp" \
 	"$$FPSRootPath/Source/FPS/FPSCharacter.cpp" \
 	"$$FPSRootPath/Source/FPS/FPSGameModeBase.cpp" \
+	"$$FPSRootPath/Source/FPS/FPSProjectile.cpp" \
  
 
