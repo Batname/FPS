@@ -18,6 +18,15 @@ AFPSCharacter::AFPSCharacter()
     FPSCameraComponent->SetRelativeLocation(FVector(0.0f, 0.0f, 50.0f + BaseEyeHeight));
     // Allow the pawn to control camera rotation.
     FPSCameraComponent->bUsePawnControlRotation = true;
+
+    // FPS mesh
+    FPSMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("FirstPersonMesh"));
+    FPSMesh->SetOnlyOwnerSee(true);
+    FPSMesh->SetupAttachment(FPSCameraComponent);
+    FPSMesh->bCastDynamicShadow = false;
+    FPSMesh->CastShadow = false;
+
+    GetMesh()->SetOwnerNoSee(true);
 }
 
 // Called when the game starts or when spawned

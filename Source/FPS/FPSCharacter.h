@@ -41,4 +41,8 @@ public:
 	/** FPS camera */
 	UPROPERTY(VisibleAnywhere)
 	UCameraComponent *FPSCameraComponent;
+
+	/** FPS arm mesh */
+	UPROPERTY(VisibleAnywhere, Category = Mesh)
+	USkeletalMeshComponent *FPSMesh;
 };
