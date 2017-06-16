@@ -31,8 +31,6 @@ public:
 	UPROPERTY(VisibleAnywhere, Category = Movement)
 	UProjectileMovementComponent *ProjectileMovementComponent;
 
-private:
-
 	UFUNCTION()
 	void FireInDirection(const FVector& ShootDirection);
 };

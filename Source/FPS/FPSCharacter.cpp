@@ -2,6 +2,7 @@
 
 #include "FPS.h"
 #include "FPSCharacter.h"
+#include "FPSProjectile.h"
 
 
 // Sets default values
@@ -93,5 +94,31 @@ void AFPSCharacter::StopJump()
 
 void AFPSCharacter::Fire()
 {
+    if (ProjectileClass)
+    {
+        // Get camera transform
+        FVector CameraLocation;
+        FRotator CameraRotation;
+        GetActorEyesViewPoint(CameraLocation, CameraRotation);
 
+        // Transform Muzzle output
+        FVector MuzzleLocation = CameraLocation + FTransform(CameraRotation).TransformVector(MuzzleOffset);
+        FRotator MuzzleRotation = CameraRotation;
+        // Skew to aim
+        MuzzleRotation.Pitch += 10.0f;
+        UWorld *World = GetWorld();
+        if (World)
+        {
+            FActorSpawnParameters SpawnParams;
+            SpawnParams.Owner = this;
+            SpawnParams.Instigator = Instigator;
+            AFPSProjectile *Projectile = World->SpawnActor<AFPSProjectile>(ProjectileClass, MuzzleLocation, MuzzleRotation, SpawnParams);
+            if (Projectile)
+            {
+                // Set the projectile's initial trajectory
+                FVector LanchDirectory = MuzzleRotation.Vector();
+                Projectile->FireInDirection(LanchDirectory);
+            }
+        }
+    }
 }
