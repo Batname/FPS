@@ -12,6 +12,8 @@ AFPSProjectile::AFPSProjectile()
 
     // Use Shpere collision
     CollisionComponent = CreateDefaultSubobject<USphereComponent>(TEXT("ShpereComponent"));
+    CollisionComponent->BodyInstance.SetCollisionProfileName(TEXT("Projectile"));
+
     CollisionComponent->InitSphereRadius(15.0f);
     RootComponent = CollisionComponent;
 
@@ -23,6 +25,9 @@ AFPSProjectile::AFPSProjectile()
     ProjectileMovementComponent->bRotationFollowsVelocity = true;
     ProjectileMovementComponent->bShouldBounce = true;
     ProjectileMovementComponent->Bounciness = 0.3f;
+
+    /** Die after 3 seconds */
+    InitialLifeSpan = 3.0f;
 }
 
 // Called when the game starts or when spawned
