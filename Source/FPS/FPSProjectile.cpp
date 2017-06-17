@@ -28,6 +28,8 @@ AFPSProjectile::AFPSProjectile()
 
     /** Die after 3 seconds */
     InitialLifeSpan = 3.0f;
+
+    CollisionComponent->OnComponentHit.AddDynamic(this, &AFPSProjectile::OnHit);
 }
 
 // Called when the game starts or when spawned
@@ -47,4 +49,12 @@ void AFPSProjectile::Tick(float DeltaTime)
 void AFPSProjectile::FireInDirection(const FVector& ShootDirection)
 {
     ProjectileMovementComponent->Velocity = ShootDirection * ProjectileMovementComponent->InitialSpeed;
+}
+
+void AFPSProjectile::OnHit(UPrimitiveComponent *HitComponent, AActor *OtherActor, UPrimitiveComponent *OtherComponent, FVector NormalImpulse, const FHitResult& Hit)
+{
+    if (OtherActor != this && OtherComponent->IsSimulatingPhysics())
+    {
+        OtherComponent->AddImpulseAtLocation(ProjectileMovementComponent->Velocity * 100.0f, Hit.ImpactPoint);
+    }
 }
