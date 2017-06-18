@@ -3,7 +3,6 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Launch/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/DerivedDataCache/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Launch/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Launch/Public/Android \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Launch \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Launch \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/SessionServices/Public \
@@ -102,8 +101,6 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Notifications \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Styling \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Text \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Text/Android \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Framework/Views \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Widgets \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Widgets/Colors \
@@ -118,6 +115,10 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Slate/Public/Widgets/Views \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Slate \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Slate \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public/Interfaces \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ImageWrapper \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/ImageWrapper \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Messaging/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Messaging/Public/Deprecated \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Messaging/Public/Helpers \
@@ -132,6 +133,9 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/ShaderCore/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ShaderCore \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/ShaderCore \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/UtilityShaders/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/UtilityShaders \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/UtilityShaders \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/AssetRegistry/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AssetRegistry \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/AssetRegistry \
@@ -183,7 +187,6 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/Features \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/Kismet2 \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/Layers \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/Localization \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/Settings \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/Tests \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/Toolkits \
@@ -226,13 +229,9 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/BlueprintGraph \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/BlueprintGraph \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public/Android \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public/Apple \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public/GenericPlatform \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public/HTML5 \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public/Interfaces \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public/Linux \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public/Windows \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/HTTP \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Online/HTTP \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/UnrealAudio/Public \
@@ -246,12 +245,13 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/AutomationController/Public/Interfaces \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AutomationController \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/AutomationController \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Internationalization/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Internationalization/Public/Serialization \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Internationalization \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Internationalization \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Localization/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Localization/Public/Serialization \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Localization \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Localization \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/AudioEditor/Classes \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/AudioEditor/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/AudioEditor/Public/AssetTypeActions \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AudioEditor \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/AudioEditor \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/LevelEditor/Public \
@@ -294,6 +294,7 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/ClassViewer \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/GraphEditor/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/GraphEditor/Public/KismetNodes \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/GraphEditor/Public/KismetPins \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GraphEditor \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/GraphEditor \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/ContentBrowser/Public \
@@ -315,9 +316,18 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/Kismet/Public/WorkflowOrientedApp \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Kismet \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/Kismet \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/ClothingSystemRuntimeInterface/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ClothingSystemRuntimeInterface \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/ClothingSystemRuntimeInterface \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/NetworkReplayStreaming/NetworkReplayStreaming/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/NetworkReplayStreaming \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/NetworkReplayStreaming/NetworkReplayStreaming \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/AudioMixer/Classes \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/AudioMixer/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/AudioMixer/Public/Components \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/AudioMixer/Public/DSP \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AudioMixer \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/AudioMixer \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/MediaAssets/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MediaAssets \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/MediaAssets \
@@ -358,6 +368,10 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/AutomationWorker/Public/Interfaces \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AutomationWorker \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/AutomationWorker \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/ClothingSystemRuntime/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/ClothingSystemRuntime/Public/Assets \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ClothingSystemRuntime \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/ClothingSystemRuntime \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/DesktopPlatform \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/DesktopPlatform \
@@ -401,6 +415,7 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/EditorWidgets \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/EditorWidgets \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/AssetTools/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/AssetTools/Public/AssetTypeActions \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AssetTools \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/AssetTools \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/2D/Paper2D/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PaperSpriteSheetImporter \
@@ -419,8 +434,61 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Blendables/LightPropagationVolume/Source/LightPropagationVolumeEditor/Classes \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Blendables/LightPropagationVolume/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LightPropagationVolumeEditor \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Blendables/LightPropagationVolume/Source/LightPropagationVolumeEditor \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Developer/BlankPlugin/Source/Developer/BlankPlugin/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Developer/BlankPlugin/Source/BlankPlugin/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Developer/BlankPlugin/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/BlankPlugin \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Developer/BlankPlugin/Source/BlankPlugin \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CodeLiteSourceCodeAccess \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/Source/CodeLiteSourceCodeAccess \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SourceCodeAccess \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/SourceCodeAccess \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/HotReload/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/HotReload \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/HotReload \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Developer/GitSourceControl/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GitSourceControl \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Developer/GitSourceControl/Source/GitSourceControl \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Developer/KDevelopSourceCodeAccess/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/KDevelopSourceCodeAccess \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Developer/KDevelopSourceCodeAccess/Source/KDevelopSourceCodeAccess \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Developer/NullSourceCodeAccess/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/NullSourceCodeAccess \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Developer/NullSourceCodeAccess/Source/NullSourceCodeAccess \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Developer/OneSkyLocalizationService/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/OneSkyLocalizationService \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Developer/OneSkyLocalizationService/Source/OneSkyLocalizationService \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/LocalizationService/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LocalizationService \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/LocalizationService \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/LocalizationCommandletExecution/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LocalizationCommandletExecution \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/LocalizationCommandletExecution \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/MainFrame/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/MainFrame/Public/Interfaces \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MainFrame \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/MainFrame \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Developer/PerforceSourceControl/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PerforceSourceControl \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Developer/PerforceSourceControl/Source/PerforceSourceControl \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Developer/SubversionSourceControl/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SubversionSourceControl \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Developer/SubversionSourceControl/Source/SubversionSourceControl \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/XmlParser/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/XmlParser/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/XmlParser \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/XmlParser \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Developer/UObjectPlugin/Source/Developer/UObjectPlugin/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Developer/UObjectPlugin/Source/UObjectPlugin/Classes \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Developer/UObjectPlugin/Source/UObjectPlugin/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Developer/UObjectPlugin/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/UObjectPlugin \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Developer/UObjectPlugin/Source/UObjectPlugin \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Editor/AssetManagerEditor/Source/AssetManagerEditor/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Editor/AssetManagerEditor/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AssetManagerEditor \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Editor/AssetManagerEditor/Source/AssetManagerEditor \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/TargetPlatform/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/TargetPlatform/Public/Common \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/TargetPlatform/Public/Interfaces \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TargetPlatform \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/TargetPlatform \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/ReferenceViewer/Classes \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/ReferenceViewer/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ReferenceViewer \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/ReferenceViewer \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Editor/EpicSurvey/Source/EpicSurvey/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Editor/EpicSurvey/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/EpicSurvey \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Editor/EpicSurvey/Source/EpicSurvey \
@@ -428,32 +496,34 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Analytics/Analytics/Public/Interfaces \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Analytics \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Analytics/Analytics \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public/Interfaces \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ImageWrapper \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/ImageWrapper \
 	/home/bat/Apps/UnrealEngine/Engine/Source/OnlineSubsystem/Public/Interfaces \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Online/OnlineSubsystem/Source/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Online/OnlineSubsystem/Source/Public/Interfaces \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Online/OnlineSubsystem/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/OnlineSubsystem \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Online/OnlineSubsystem/Source \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/MainFrame/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/MainFrame/Public/Interfaces \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MainFrame \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/MainFrame \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Editor/FacialAnimation/Source/FacialAnimation/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Editor/FacialAnimation/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/FacialAnimation \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Editor/FacialAnimation/Source/FacialAnimation \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Editor/FacialAnimation/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/FacialAnimationEditor \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Editor/FacialAnimation/Source/FacialAnimationEditor \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/TargetPlatform/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/TargetPlatform/Public/Common \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/TargetPlatform/Public/Interfaces \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TargetPlatform \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/TargetPlatform \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/Persona/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Persona \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/Persona \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/AdvancedPreviewScene/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AdvancedPreviewScene \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/AdvancedPreviewScene \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/SkeletonEditor/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SkeletonEditor \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/SkeletonEditor \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Editor/GameplayTagsEditor/Source/Editor/GameplayTagsEditor/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Editor/GameplayTagsEditor/Source/Developer/AssetTools/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Editor/GameplayTagsEditor/Source/GameplayTagsEditor/Classes \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Editor/GameplayTagsEditor/Source/GameplayTagsEditor/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Editor/GameplayTagsEditor/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GameplayTagsEditor \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Editor/GameplayTagsEditor/Source/GameplayTagsEditor \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/KismetCompiler/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/KismetCompiler \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/KismetCompiler \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Editor/MobileLauncherProfileWizard/Source/MobileLauncherProfileWizard/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Editor/MobileLauncherProfileWizard/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MobileLauncherProfileWizard \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Editor/MobileLauncherProfileWizard/Source/MobileLauncherProfileWizard \
@@ -518,14 +588,85 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Experimental/CharacterAI/Source/CharacterAI/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Experimental/CharacterAI/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CharacterAI \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Experimental/CharacterAI/Source/CharacterAI \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Experimental/CodeEditor/Source/Developer/CodeEditor/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Experimental/CodeEditor/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CodeEditor \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Experimental/CodeEditor/Source/CodeEditor \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Experimental/CodeView/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CodeView \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Experimental/CodeView/Source/CodeView \
-	/home/bat/Apps/UnrealEngine/Engine/Plugins/Experimental/Phya/Source/Phya/Private \
-	/home/bat/Apps/UnrealEngine/Engine/Plugins/Experimental/Phya/Source/Phya/Private/PhyaLib/include \
-	/home/bat/Apps/UnrealEngine/Engine/Plugins/Experimental/Phya/Source/Phya/Classes \
-	/home/bat/Apps/UnrealEngine/Engine/Plugins/Experimental/Phya/Source/Phya/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Plugins/Experimental/Phya/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Phya \
-	/home/bat/Apps/UnrealEngine/Engine/Plugins/Experimental/Phya/Source/Phya \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Experimental/ControlRig/Source/ControlRig/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Experimental/ControlRig/Source/ControlRig/Private/Controllers \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Experimental/ControlRig/Source/ControlRig/Private/Sequencer \
+	/home/bat/Apps/UnrealEngine/Engine/Source/ControlRig/Private/Controllers \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Experimental/ControlRig/Source/ControlRig/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Experimental/ControlRig/Source/ControlRig/Public/Rigs \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Experimental/ControlRig/Source/ControlRig/Public/Sequencer \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Experimental/ControlRig/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ControlRig \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Experimental/ControlRig/Source/ControlRig \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/AnimationCore/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AnimationCore \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/AnimationCore \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/LevelSequence/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LevelSequence \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/LevelSequence \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/MovieScene/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/MovieScene/Public/Compilation \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/MovieScene/Public/Evaluation \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MovieScene \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/MovieScene \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/MovieSceneTracks/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/MovieSceneTracks/Public/Evaluation \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/MovieSceneTracks/Public/Sections \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MovieSceneTracks \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/MovieSceneTracks \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/UMG/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/UMG/Public/Animation \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/UMG/Public/Binding \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/UMG/Public/Blueprint \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/UMG/Public/Components \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/UMG/Public/Slate \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/UMG \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/UMG \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/AnimGraphRuntime/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/AnimGraphRuntime/Public/AnimNodes \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/AnimGraphRuntime/Public/AnimNotifies \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/AnimGraphRuntime/Public/BoneControllers \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/AnimGraphRuntime/Public/RBF \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AnimGraphRuntime \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/AnimGraphRuntime \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/InputOutput \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Sequencer \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/EditMode \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Experimental/ControlRig/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ControlRigEditor \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/AnimGraph/Classes \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/AnimGraph/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AnimGraph \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/AnimGraph \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/MovieSceneTools/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/MovieSceneTools/Public/Sections \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/MovieSceneTools/Public/TrackEditorThumbnail \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/MovieSceneTools/Public/TrackEditors \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/MovieSceneTools/Public/TrackEditors/PropertyTrackEditors \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MovieSceneTools \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/MovieSceneTools \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/Sequencer/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Sequencer \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/Sequencer \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/SceneOutliner/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SceneOutliner \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/SceneOutliner \
+	/LiveLink/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Experimental/LiveLink/Source/LiveLink/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Experimental/LiveLink/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LiveLink \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Experimental/LiveLink/Source/LiveLink \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/LiveLinkInterface/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LiveLinkInterface \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/LiveLinkInterface \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/LiveLinkMessageBusFramework/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LiveLinkMessageBusFramework \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/LiveLinkMessageBusFramework \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Experimental/SimpleHMD/Source/SimpleHMD/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Renderer/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Experimental/SimpleHMD/Source/SimpleHMD/Public \
@@ -593,6 +734,22 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Media/WmfMedia/Source/WmfMedia/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Media/WmfMedia/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/WmfMedia \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Media/WmfMedia/Source/WmfMedia \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Models \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Styles \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Widgets \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Widgets/Breakpoints \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Widgets/EndpointDetails \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Widgets/Endpoints \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Widgets/Graph \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Widgets/History \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Widgets/Interceptors \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Widgets/MessageData \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Widgets/MessageDetails \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Widgets/Types \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Widgets/Toolbar \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Messaging/MessagingDebugger/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MessagingDebugger \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Private/Shared \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Private/Transport \
@@ -607,18 +764,6 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/ActorSequence/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ActorSequence \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/ActorSequence \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/MovieScene/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/MovieScene/Public/Compilation \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/MovieScene/Public/Evaluation \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MovieScene \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/MovieScene \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/MovieSceneTools/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/MovieSceneTools/Public/TrackEditors \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MovieSceneTools \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/MovieSceneTools \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/Sequencer/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Sequencer \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/Sequencer \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/MovieScene/LevelSequenceEditor/Source/LevelSequenceEditor/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/MovieScene/LevelSequenceEditor/Source/LevelSequenceEditor/Private/AssetTools \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/MovieScene/LevelSequenceEditor/Source/LevelSequenceEditor/Private/Customizations \
@@ -627,29 +772,12 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/MovieScene/LevelSequenceEditor/Source/LevelSequenceEditor/Private/Styles \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/MovieScene/LevelSequenceEditor/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LevelSequenceEditor \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/MovieScene/LevelSequenceEditor/Source/LevelSequenceEditor \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/LevelSequence/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LevelSequence \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/LevelSequence \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/MovieSceneTracks/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/MovieSceneTracks/Public/Evaluation \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/MovieSceneTracks/Public/Sections \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MovieSceneTracks \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/MovieSceneTracks \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/UMG/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/UMG/Public/Animation \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/UMG/Public/Binding \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/UMG/Public/Blueprint \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/UMG/Public/Components \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/UMG/Public/Slate \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/UMG \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/UMG \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/CinematicCamera/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CinematicCamera \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/CinematicCamera \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/SceneOutliner/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SceneOutliner \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/SceneOutliner \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/ViewportInteraction/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ViewportInteraction \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/ViewportInteraction \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/PlacementMode/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PlacementMode \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/PlacementMode \
@@ -677,7 +805,6 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Source/NetcodeUnitTest \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Source/NetcodeUnitTest/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public/IOS \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/StandaloneRenderer \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/StandaloneRenderer \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/Source/GameCircleRuntimeSettings/Classes \
@@ -687,6 +814,14 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Android/Android_MultiTargetPlatform/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Android_MultiTargetPlatform \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Android/Android_MultiTargetPlatform \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Online/BuildPatchServices/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Online/HTTPChunkInstaller/Source/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Online/HTTPChunkInstaller/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/HTTPChunkInstaller \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Online/HTTPChunkInstaller/Source \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Online/BuildPatchServices/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Online/BuildPatchServices/Public/Interfaces \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/BuildPatchServices \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Online/BuildPatchServices \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Online/OnlineFramework/Source/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Online/OnlineFramework/Source/Qos/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Online/OnlineFramework/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Qos \
@@ -727,7 +862,18 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Online/Voice/Public/Interfaces \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Voice \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Online/Voice \
+	/home/bat/Apps/UnrealEngine/Engine/Source/AndroidPermission/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/AndroidPermission/Source/AndroidPermission/Classes \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/AndroidPermission/Source/AndroidPermission/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/AndroidPermission/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AndroidPermission \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/AndroidPermission/Source/AndroidPermission \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Online/OnlineSubsystemUtils/Source/OnlineSubsystemUtils/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Online/OnlineSubsystemUtils/Source/OnlineBlueprintSupport/Classes \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Online/OnlineSubsystemUtils/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/OnlineBlueprintSupport \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Online/OnlineSubsystemUtils/Source/OnlineBlueprintSupport \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Performance/PerformanceMonitor/Source/PerformanceMonitor/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Performance/PerformanceMonitor/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PerformanceMonitor \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Performance/PerformanceMonitor/Source/PerformanceMonitor \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/Source/AnalyticsBlueprintLibrary/Classes \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/Source/AnalyticsBlueprintLibrary/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AnalyticsBlueprintLibrary \
@@ -758,11 +904,6 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/Analytics/Flurry/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/FlurryEditor \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/Analytics/Flurry/Source/FlurryEditor \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/AndroidPermission/Source/AndroidPermission/Private \
-	/home/bat/Apps/UnrealEngine/Engine/Source/AndroidPermission/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/AndroidPermission/Source/AndroidPermission/Classes \
-	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/AndroidPermission/Source/AndroidPermission/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/AndroidPermission/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AndroidPermission \
-	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/AndroidPermission/Source/AndroidPermission \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/ArchVisCharacter/Source/ArchVisCharacter/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/ArchVisCharacter/Source/ArchVisCharacter/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/ArchVisCharacter/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ArchVisCharacter \
@@ -790,12 +931,49 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/SequenceRecorder/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SequenceRecorder \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/SequenceRecorder \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilitiesEditor/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/GraphEditor/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/Kismet/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/AssetTools/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilitiesEditor/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/GameplayAbilities/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GameplayAbilitiesEditor \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilitiesEditor \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/GameplayTasksEditor/Classes \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/GameplayTasksEditor/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GameplayTasksEditor \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/GameplayTasksEditor \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/GoogleVR/GoogleVRTransition2D/Source/GoogleVRTransition2D/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/GoogleVRTransition2D/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/GoogleVR/GoogleVRTransition2D/Source/GoogleVRTransition2D/Classes \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/GoogleVR/GoogleVRTransition2D/Source/GoogleVRTransition2D/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/GoogleVR/GoogleVRTransition2D/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GoogleVRTransition2D \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/GoogleVR/GoogleVRTransition2D/Source/GoogleVRTransition2D \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/HTNPlanner/Source/Runtime/AIModule/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/HTNPlanner/Source/Runtime/AIModule/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/HTNPlanner/Source/Runtime/Engine/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/HTNPlanner/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/HTNPlanner/Source/HTNPlanner/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/HTNPlanner/Source/HTNPlanner/Public/AI \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/HTNPlanner/Source/HTNPlanner/Public/Debug \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/HTNPlanner/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/HTNPlanner \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/HTNPlanner/Source/HTNPlanner \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/HTNTestSuite/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/HTNPlanner/Source/HTNTestSuite/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/HTNPlanner/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/HTNTestSuite \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/HTNPlanner/Source/HTNTestSuite \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/AITestSuite/Classes \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/AITestSuite/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AITestSuite \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/AITestSuite \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/ImmediatePhysics/Source/Runtime/ImmediatePhysics/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/ImmediatePhysics/Source/ImmediatePhysics/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/ImmediatePhysics/Source/ImmediatePhysics/Public/BoneControllers \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/ImmediatePhysics/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ImmediatePhysics \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/ImmediatePhysics/Source/ImmediatePhysics \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/ImmediatePhysics/Source/Runtime/ImmediatePhysicsEditor/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/ImmediatePhysics/Source/ImmediatePhysicsEditor/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/ImmediatePhysics/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ImmediatePhysicsEditor \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/ImmediatePhysics/Source/ImmediatePhysicsEditor \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/Source/Runtime/LinuxDeviceProfileSelector/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/LinuxDeviceProfileSelector/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/Source/LinuxDeviceProfileSelector/Public \
@@ -821,10 +999,6 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/MobilePatchingUtils/Source/MobilePatchingUtils/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/MobilePatchingUtils/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MobilePatchingUtils \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/MobilePatchingUtils/Source/MobilePatchingUtils \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Online/BuildPatchServices/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Online/BuildPatchServices/Public/Interfaces \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/BuildPatchServices \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Online/BuildPatchServices \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/OptionalMobileFeaturesBPLibrary/Source/OptionalMobileFeaturesBPLibrary/Classes \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/OptionalMobileFeaturesBPLibrary/Source/OptionalMobileFeaturesBPLibrary/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/OptionalMobileFeaturesBPLibrary/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/OptionalMobileFeaturesBPLibrary \
@@ -839,11 +1013,11 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/PhysXVehicles/Source/PhysXVehicles/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/PhysXVehicles/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PhysXVehicles \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/PhysXVehicles/Source/PhysXVehicles \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/AnimGraphRuntime/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/AnimGraphRuntime/Public/AnimNodes \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/AnimGraphRuntime/Public/BoneControllers \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AnimGraphRuntime \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/AnimGraphRuntime \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/PhysXVehicles/Source/PhysXVehiclesEditor/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Source/PhysXVehiclesEditor/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/PhysXVehicles/Source/PhysXVehiclesEditor/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/PhysXVehicles/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PhysXVehiclesEditor \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/PhysXVehicles/Source/PhysXVehiclesEditor \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/ProceduralMeshComponent/Source/ProceduralMeshComponent/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/ProceduralMeshComponent/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/ProceduralMeshComponent/Source/ProceduralMeshComponent/Public \
@@ -866,6 +1040,12 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/SoundMod/Source/SoundMod/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/SoundMod/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SoundMod \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/SoundMod/Source/SoundMod \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/SoundUtilities/Source/SoundUtilities/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/SoundUtilities/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SoundUtilities \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/SoundUtilities/Source/SoundUtilities \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/SoundUtilities/Source/SoundUtilitiesEditor/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/SoundUtilities/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SoundUtilitiesEditor \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/SoundUtilities/Source/SoundUtilitiesEditor \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/SoundVisualizations/Source/SoundVisualizations/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/SoundVisualizations/Source/SoundVisualizations/Classes \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/SoundVisualizations/Source/SoundVisualizations/Public \
@@ -877,6 +1057,30 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/InputDevice/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/InputDevice \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/InputDevice \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVR/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVR/Classes \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVR/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/Steam/SteamVR/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SteamVR \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVR \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/OpenGLDrv/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/OpenGLDrv \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/OpenGLDrv \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/VulkanRHI \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/VulkanRHI \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVRController/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/Steam/SteamVR/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SteamVRController \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVRController \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Classes \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/Synthesis/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Synthesis \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/Synthesis/Source/Synthesis \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/Synthesis/Source/SynthesisEditor/Classes \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/Synthesis/Source/SynthesisEditor/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/Synthesis/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SynthesisEditor \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/Synthesis/Source/SynthesisEditor \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/WebBrowserWidget/Source/WebBrowserWidget/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/WebBrowserWidget/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/WebBrowserWidget \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Runtime/WebBrowserWidget/Source/WebBrowserWidget \
@@ -909,6 +1113,11 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/ScreenShotComparisonTools/Public/Interfaces \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ScreenShotComparisonTools \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/ScreenShotComparisonTools \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Tests/RuntimeTests/Source/RuntimeTests/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Source/RuntimeTests/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Tests/RuntimeTests/Source/RuntimeTests/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Tests/RuntimeTests/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/RuntimeTests \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Tests/RuntimeTests/Source/RuntimeTests \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Tests/ScreenshotTools/Source/ScreenshotTools/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/ScreenshotTools/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Tests/ScreenshotTools/Source/ScreenshotTools/Public \
@@ -934,6 +1143,7 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/SlateCore/Private/Textures \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/SlateCore/Private/Types \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/SlateCore/Private/Widgets \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Slate/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Slate/Private/Framework/Application \
@@ -962,9 +1172,7 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Toolbox/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Settings/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Private \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SourceCodeAccess \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/SourceCodeAccess \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/DirectoryWatcher/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/DerivedDataCache \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/DerivedDataCache \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Core/Private \
@@ -973,7 +1181,6 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Core/Private/Internationalization \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Core/Private/Internationalization/Cultures \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Analytics/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/DirectoryWatcher/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/SlateFileDialogs/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/SlateFileDialogs/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SlateFileDialogs \
@@ -1008,14 +1215,8 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/NullDrv/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/NullDrv \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/NullDrv \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/UtilityShaders/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/UtilityShaders \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/UtilityShaders \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Vulkan/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/OpenGLDrv/Private \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/OpenGLDrv/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/OpenGLDrv \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/OpenGLDrv \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/RHI/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/MovieScene/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/AnimGraphRuntime/Private \
@@ -1036,6 +1237,10 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/CurveAssetEditor/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CurveAssetEditor \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/CurveAssetEditor \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/MessageLog/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/MessageLog/Private/Presentation \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/MessageLog/Private/UserInterface \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/MessageLog/Private/Model \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/SourceControl/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/CrashTracker/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/CrashTracker/Public \
@@ -1046,42 +1251,70 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/SourceControlWindows/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SourceControlWindows \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/SourceControlWindows \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/LinuxTargetPlatform/Classes \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Linux/LinuxTargetPlatform/Classes \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LinuxTargetPlatform \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Linux/LinuxTargetPlatform \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/TextureCompressor/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureCompressor \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/TextureCompressor \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Linux/LinuxTargetPlatform/Private \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LinuxNoEditorTargetPlatform \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Linux/LinuxNoEditorTargetPlatform \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LinuxClientTargetPlatform \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Linux/LinuxClientTargetPlatform \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LinuxServerTargetPlatform \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Linux/LinuxServerTargetPlatform \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/IOS/LaunchDaemonMessages/Classes \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/IOS/LaunchDaemonMessages/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LaunchDaemonMessages \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/IOS/LaunchDaemonMessages \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AllDesktopTargetPlatform \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/AllDesktopTargetPlatform \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/ShaderCompilerCommon/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ShaderCompilerCommon \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/ShaderCompilerCommon \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/ShaderPreprocessor/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ShaderPreprocessor \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/ShaderPreprocessor \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/ShaderCompilerCommon/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ShaderCompilerCommon \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/ShaderCompilerCommon \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/ShaderFormatOpenGL/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ShaderFormatOpenGL \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/ShaderFormatOpenGL \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureFormatDXT \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/TextureFormatDXT \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/TextureCompressor/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureCompressor \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/TextureCompressor \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureFormatPVR \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/TextureFormatPVR \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureFormatIntelISPCTexComp \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/TextureFormatIntelISPCTexComp \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureFormatASTC \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/TextureFormatASTC \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureFormatUncompressed \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/TextureFormatUncompressed \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AudioFormatOgg \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/AudioFormatOgg \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AudioFormatOpus \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/AudioFormatOpus \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Serialization/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Messaging/TcpMessaging/Source/TcpMessaging/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Messaging/TcpMessaging/Source/TcpMessaging/Private/Settings \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Messaging/TcpMessaging/Source/TcpMessaging/Private/Transport \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Messaging/TcpMessaging/Source/TcpMessaging/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Messaging/TcpMessaging/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TcpMessaging \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Messaging/TcpMessaging/Source/TcpMessaging \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Android/AndroidDeviceDetection/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Android/AndroidDeviceDetection/Public/Interfaces \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AndroidDeviceDetection \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Android/AndroidDeviceDetection \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/AndroidTargetPlatform/Classes \
+	/home/bat/Apps/UnrealEngine/Engine/Source/SessionServices \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AndroidTargetPlatform \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Android/AndroidTargetPlatform \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Android/AndroidTargetPlatform/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Android_PVRTCTargetPlatform \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Android/Android_PVRTCTargetPlatform \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Android_ATCTargetPlatform \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Android/Android_ATCTargetPlatform \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Android_DXTTargetPlatform \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Android/Android_DXTTargetPlatform \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Android_ETC1TargetPlatform \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Android/Android_ETC1TargetPlatform \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Android_ETC2TargetPlatform \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Android/Android_ETC2TargetPlatform \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Android_ASTCTargetPlatform \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Android/Android_ASTCTargetPlatform \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/HTML5TargetPlatform/Classes \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/HTML5/HTML5TargetPlatform/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/HTML5TargetPlatform \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/HTML5/HTML5TargetPlatform \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Engine/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/PhysXFormats/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PhysXFormats \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/PhysXFormats \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/MessageLog/Private \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/MessageLog/Private/Presentation \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/MessageLog/Private/UserInterface \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/MessageLog/Private/Model \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/VulkanShaderFormat \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/VulkanShaderFormat \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/WidgetCarousel/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/WidgetCarousel/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/WidgetCarousel \
@@ -1091,6 +1324,10 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Merge/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Merge \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Merge \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/AVIWriter/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/AVIWriter/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AVIWriter \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/AVIWriter \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/MovieSceneCapture/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/MovieSceneCapture/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/MovieSceneCapture/Public/Protocols \
@@ -1099,20 +1336,16 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/PackagesDialog/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PackagesDialog \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/PackagesDialog \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/XmlParser/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/XmlParser/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/XmlParser \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/XmlParser \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/TreeMap/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TreeMap \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/TreeMap \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/SizeMap/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SizeMap \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/SizeMap \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/ReferenceViewer/Classes \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/ReferenceViewer/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ReferenceViewer \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/ReferenceViewer \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/MaterialUtilities/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MaterialUtilities \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/MaterialUtilities \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/MaterialEditor/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/StatsViewer/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/StatsViewer/Private/StatsPages \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/StatsViewer/Private/StatsEntries \
@@ -1124,20 +1357,13 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/DeviceProfileServices/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/DeviceProfileServices \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/DeviceProfileServices \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Serialization/Private \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/CEF3Utils/Private \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/CEF3Utils/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CEF3Utils \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/CEF3Utils \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/WebBrowser/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/ClothingSystemRuntimeInterface/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/ClothingSystemRuntime/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/ClothingSystemEditorInterface/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/ClothingSystemEditorInterface/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ClothingSystemEditorInterface \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/ClothingSystemEditorInterface \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Documentation/Private \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/SkeletonEditor/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SkeletonEditor \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/SkeletonEditor \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/AnimGraph/Classes \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/AnimGraph/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AnimGraph \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/AnimGraph \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/AnimationEditor/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AnimationEditor \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/AnimationEditor \
@@ -1158,9 +1384,6 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Foliage/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Foliage \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Foliage \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/MaterialUtilities/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MaterialUtilities \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/MaterialUtilities \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/MeshBoneReduction/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MeshBoneReduction \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/MeshBoneReduction \
@@ -1185,10 +1408,6 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/PixelInspector \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/GameplayTasks/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/AITestSuite/Private \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/AITestSuite/Classes \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/AITestSuite/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AITestSuite \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/AITestSuite \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Navmesh/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Navmesh/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Navmesh/Public/DebugUtils \
@@ -1201,7 +1420,6 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/GameplayDebugger/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/GameplayTags/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/AIModule/Private \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Engine/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/MessageLog/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Stats/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/FunctionalTesting/Private \
@@ -1263,9 +1481,6 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/Layers/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Layers \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/Layers \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/ViewportInteraction/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ViewportInteraction \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/ViewportInteraction \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/VREditor/Gizmo \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/VREditor/UI \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/VREditor/Teleporter \
@@ -1273,6 +1488,25 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/LandscapeEditor/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LandscapeEditor \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/LandscapeEditor \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/MoviePlayer/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/InternationalizationSettings/Classes \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/InternationalizationSettings/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/InternationalizationSettings \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/InternationalizationSettings \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/ConfigEditor/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/ConfigEditor/Private/PropertyVisualization \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/ConfigEditor/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/ConfigEditor/Public/PropertyVisualization \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ConfigEditor \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/ConfigEditor \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/ComponentVisualizers/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/ComponentVisualizers/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ComponentVisualizers \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/ComponentVisualizers \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/DetailCustomizations/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/FoliageEdit/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/FoliageEdit \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/FoliageEdit \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/WorldBrowser/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/WorldBrowser/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/WorldBrowser \
@@ -1300,14 +1534,8 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/MovieSceneTools/Private/TrackEditors/PropertyTrackEditors \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/MovieSceneTools/Private/TrackEditorThumbnail \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/MovieSceneTools/Private/Sections \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/KismetCompiler/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/KismetCompiler \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/KismetCompiler \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/BlueprintGraph/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/KismetWidgets/Private \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/HotReload/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/HotReload \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/HotReload \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/BlueprintCompilerCppBackend/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/BlueprintCompilerCppBackend/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/BlueprintCompilerCppBackend \
@@ -1320,26 +1548,6 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/BlueprintProfiler/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/BlueprintProfiler \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/BlueprintProfiler \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/MoviePlayer/Private \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/Localization/Private \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/Localization/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Localization \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/Localization \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/InternationalizationSettings/Classes \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/InternationalizationSettings/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/InternationalizationSettings \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/InternationalizationSettings \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/ConfigEditor/Private \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/ConfigEditor/Private/PropertyVisualization \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/ConfigEditor/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/ConfigEditor/Public/PropertyVisualization \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ConfigEditor \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/ConfigEditor \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/ComponentVisualizers/Private \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/ComponentVisualizers/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ComponentVisualizers \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/ComponentVisualizers \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/DetailCustomizations/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/UMGEditor/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/UMGEditor/Private/Templates \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/UMGEditor/Private/Extensions \
@@ -1361,7 +1569,6 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/BlueprintRuntime/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/BlueprintRuntime \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/BlueprintRuntime \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/Kismet/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/LauncherServices/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/LauncherServices/Private/Devices \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/LauncherServices/Private/Games \
@@ -1372,14 +1579,11 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/AddContentDialog/Private/ViewModels \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/AddContentDialog/Private/ContentSourceProviders/AssetPack \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/AddContentDialog/Private/ContentSourceProviders/FeaturePack \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/AudioMixer/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/GameProjectGeneration/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/GameProjectGeneration/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Source/GameProjectGeneration/Classes \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Internationalization/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/LocalizationService/Private \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/LocalizationService/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LocalizationService \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/LocalizationService \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/TranslationEditor/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/TranslationEditor/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TranslationEditor \
@@ -1428,17 +1632,12 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/DestructibleMeshEditor/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/DestructibleMeshEditor \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/DestructibleMeshEditor \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/MaterialEditor/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/FontEditor/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/FontEditor \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/FontEditor \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/AudioEditor/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/AudioEditor/Private/Factories \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/AudioEditor/Private/AssetTypeActions \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/AssetTools/Private \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/GraphEditor/Private \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/GraphEditor/Private/AnimationPins \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/GraphEditor/Private/AnimationStateNodes \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/GraphEditor/Private/KismetNodes \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/GraphEditor/Private/KismetPins \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/GraphEditor/Private/MaterialNodes \
@@ -1468,6 +1667,9 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/SwarmInterface/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SwarmInterface \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/SwarmInterface \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/MeshPaintMode/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MeshPaintMode \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/MeshPaintMode \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Engine/Classes/Curves \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/VectorVM/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/VectorVM \
@@ -1478,6 +1680,10 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/PluginWarden/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PluginWarden \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/PluginWarden \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/ClothingSystemEditor/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/ClothingSystemEditor/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ClothingSystemEditor \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/ClothingSystemEditor \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/UnrealAudio/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/UnrealAudio/Private/Tests \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/StaticMeshEditor/Public \
@@ -1519,6 +1725,9 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/ProjectLauncher/Public/Interfaces \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ProjectLauncher \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/ProjectLauncher \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/StringTableEditor/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/StringTableEditor \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/StringTableEditor \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/GeometryMode/Classes \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/GeometryMode/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GeometryMode \
@@ -1526,9 +1735,6 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/TextureAlignMode/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureAlignMode \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/TextureAlignMode \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/FoliageEdit/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/FoliageEdit \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/FoliageEdit \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/PackageDependencyInfo/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PackageDependencyInfo \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/PackageDependencyInfo \
@@ -1539,7 +1745,16 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/Blutility \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Niagara/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Engine/Classes/Engine \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/ShaderFormatVectorVM/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ShaderFormatVectorVM \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/ShaderFormatVectorVM \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/NiagaraEditor/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/NiagaraEditor/Private/Toolkits \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/NiagaraEditor/Private/Widgets \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/NiagaraEditor/Private/Sequencer/NiagaraSequence \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/NiagaraEditor/Private/Sequencer/LevelSequence \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/NiagaraEditor/Private/ViewModels \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/NiagaraEditor/Private/TypeEditorUtilities \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/MergeActors/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/MergeActors/Private/MeshMergingTool \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/MergeActors/Private/MeshProxyTool \
@@ -1568,19 +1783,11 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/EnvironmentQueryEditor \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/EnvironmentQueryEditor \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/GameplayTasksEditor/Private \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/GameplayTasksEditor/Classes \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/GameplayTasksEditor/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GameplayTasksEditor \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/GameplayTasksEditor \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/IOS/IOSRuntimeSettings/Classes \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/IOSRuntimeSettings \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/IOS/IOSRuntimeSettings \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/IOSPlatformEditor \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/iOS/IOSPlatformEditor \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/HTML5TargetPlatform/Classes \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/HTML5/HTML5TargetPlatform/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/HTML5TargetPlatform \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/HTML5/HTML5TargetPlatform \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/HTML5/HTML5PlatformEditor/Classes \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/HTML5PlatformEditor \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/HTML5/HTML5PlatformEditor \
@@ -1610,17 +1817,12 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GeometryCacheEd \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/GeometryCacheEd \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/GeometryCacheEd/Private \
-	/home/bat/Apps/UnrealEngine/Engine/Plugins/Messaging/TcpMessaging/Source/TcpMessaging/Private \
-	/home/bat/Apps/UnrealEngine/Engine/Plugins/Messaging/TcpMessaging/Source/TcpMessaging/Private/Settings \
-	/home/bat/Apps/UnrealEngine/Engine/Plugins/Messaging/TcpMessaging/Source/TcpMessaging/Private/Transport \
-	/home/bat/Apps/UnrealEngine/Engine/Plugins/Messaging/TcpMessaging/Source/TcpMessaging/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Plugins/Messaging/TcpMessaging/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TcpMessaging \
-	/home/bat/Apps/UnrealEngine/Engine/Plugins/Messaging/TcpMessaging/Source/TcpMessaging \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Android/AndroidDeviceDetection/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Android/AndroidDeviceDetection/Public/Interfaces \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AndroidDeviceDetection \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Android/AndroidDeviceDetection \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Android/AndroidTargetPlatform/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/AnimationModifiers/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AnimationModifiers \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/AnimationModifiers \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/ClothPainter/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ClothPainter \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Editor/ClothPainter \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Android/AndroidRuntimeSettings/Classes \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AndroidRuntimeSettings \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Android/AndroidRuntimeSettings \
@@ -1647,6 +1849,12 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/PerfCounters/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PerfCounters \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/PerfCounters \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/CollisionAnalyzer/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CollisionAnalyzer \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/CollisionAnalyzer \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/LogVisualizer/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LogVisualizer \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/LogVisualizer \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/SynthBenchmark/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/DatabaseSupport/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/PacketHandler/Private \
@@ -1657,6 +1865,27 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/StreamingPauseRendering \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/StreamingPauseRendering \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/SlateNullRenderer/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/BlankModule/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/BlankModule/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/BlankModule \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/BlankModule \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/LinuxTargetPlatform/Classes \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Linux/LinuxTargetPlatform/Classes \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LinuxTargetPlatform \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Linux/LinuxTargetPlatform \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Linux/LinuxTargetPlatform/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LinuxNoEditorTargetPlatform \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Linux/LinuxNoEditorTargetPlatform \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LinuxServerTargetPlatform \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Linux/LinuxServerTargetPlatform \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LinuxClientTargetPlatform \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Linux/LinuxClientTargetPlatform \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/IOS/LaunchDaemonMessages/Classes \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/IOS/LaunchDaemonMessages/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LaunchDaemonMessages \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/IOS/LaunchDaemonMessages \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AllDesktopTargetPlatform \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/AllDesktopTargetPlatform \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/NetworkReplayStreaming/NullNetworkReplayStreaming/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/NetworkReplayStreaming/NullNetworkReplayStreaming/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/NullNetworkReplayStreaming \
@@ -1685,16 +1914,18 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/ModuleUI/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ModuleUI \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/ModuleUI \
+	/home/bat/Apps/UnrealEngine/Engine/Source/LiveLinkInterface/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Source/LiveLinkMessageBusFramework/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Online/Voice/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Online/Icmp/Private \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Online/BuildPatchServices/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/CEF3Utils/Private \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/CEF3Utils/Public \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CEF3Utils \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/CEF3Utils \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/WebBrowser/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AudioFormatADPCM \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/AudioFormatADPCM \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AudioFormatOgg \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/AudioFormatOgg \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AudioFormatOpus \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/AudioFormatOpus \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/AutomationDriver/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/AutomationDriver/Private/Locators \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/AutomationDriver/Private/Specs \
@@ -1702,13 +1933,6 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/AutomationDriver/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AutomationDriver \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/AutomationDriver \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/BlankModule/Private \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/BlankModule/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/BlankModule \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/BlankModule \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/CollisionAnalyzer/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CollisionAnalyzer \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/CollisionAnalyzer \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/CrashDebugHelper/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/CrashDebugHelper/Private/Linux \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/CrashDebugHelper/Private/Mac \
@@ -1716,38 +1940,16 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/CrashDebugHelper/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CrashDebugHelper \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/CrashDebugHelper \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/LogVisualizer/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LogVisualizer \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/LogVisualizer \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/SlackIntegrations/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/SlackIntegrations/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SlackIntegrations \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/SlackIntegrations \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureFormatASTC \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/TextureFormatASTC \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureFormatIntelISPCTexComp \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/TextureFormatIntelISPCTexComp \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureFormatDXT \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/TextureFormatDXT \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureFormatPVR \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/TextureFormatPVR \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureFormatUncompressed \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/TextureFormatUncompressed \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/UnrealCodeAnalyzerTests/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/UnrealCodeAnalyzerTests \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/UnrealCodeAnalyzerTests \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Analytics/AnalyticsSwrve/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AnalyticsSwrve \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Analytics/AnalyticsSwrve \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Analytics/QoSReporter/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/QoSReporter \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Analytics/QoSReporter \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/AudioMixer/Private \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/AudioMixer/Classes \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/AudioMixer/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/AudioMixer/Public/DSP \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AudioMixer \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/AudioMixer \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/FriendsAndChat/Private \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/FriendsAndChat/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/FriendsAndChat/Public/Interfaces \
@@ -1819,7 +2021,6 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/CrashReportClient/Inc/Analytics \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/CrashReportClient/Inc/AnalyticsET \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/CrashReportClient/Inc/DesktopPlatform \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/CrashReportClient/Inc/QoSReporter \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Programs/CrashReporter/MinidumpDiagnostics/Public \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/MinidumpDiagnostics/Inc/MinidumpDiagnostics \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Programs/CrashReporter/MinidumpDiagnostics \
@@ -1828,28 +2029,10 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/MinidumpDiagnostics/Inc/CoreUObject \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/MinidumpDiagnostics/Inc/InputCore \
 	/home/bat/Apps/UnrealEngine/Engine/Plugins/Developer/PerforceSourceControl/Intermediate/Build/Linux/B4D820EA/MinidumpDiagnostics/Inc/PerforceSourceControl \
-	/home/bat/Apps/UnrealEngine/Engine/Plugins/Developer/PerforceSourceControl/Source/PerforceSourceControl \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/MinidumpDiagnostics/Inc/Projects \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/MinidumpDiagnostics/Inc/Json \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/MinidumpDiagnostics/Inc/Launch \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/MinidumpDiagnostics/Inc/ProfilerService \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Apple/MetalShaderFormat/Private \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/ShaderFormatOpenGL/Private \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/ShaderCompilerCommon/Private \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/VulkanRHI/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/CrossCompilerTool/Inc/CrossCompilerTool \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Programs/CrossCompilerTool \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/CrossCompilerTool/Inc/Projects \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/CrossCompilerTool/Inc/Json \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/CrossCompilerTool/Inc/ShaderCompilerCommon \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Runtime/Apple/MetalRHI/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/CrossCompilerTool/Inc/MetalShaderFormat \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Developer/Apple/MetalShaderFormat \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/CrossCompilerTool/Inc/ShaderFormatOpenGL \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/CrossCompilerTool/Inc/ShaderPreprocessor \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/CrossCompilerTool/Inc/ShaderCore \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/CrossCompilerTool/Inc/RHI \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/CrossCompilerTool/Inc/RenderCore \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealLaunchDaemon/Inc/UnrealLaunchDaemon \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Programs/IOS/UnrealLaunchDaemon \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealLaunchDaemon/Inc/NetworkFile \
@@ -1861,6 +2044,7 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealLaunchDaemon/Inc/CoreUObject \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealLaunchDaemon/Inc/InputCore \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealLaunchDaemon/Inc/SlateCore \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealLaunchDaemon/Inc/ImageWrapper \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealLaunchDaemon/Inc/EditorStyle \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealLaunchDaemon/Inc/StandaloneRenderer \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealLaunchDaemon/Inc/LaunchDaemonMessages \
@@ -1892,6 +2076,14 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealAtoS/Inc/Json \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealAtoS/Inc/Launch \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealAtoS/Inc/ProfilerService \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/MayaLiveLinkPlugin/Inc/MayaLiveLinkPlugin \
+	/home/bat/Apps/UnrealEngine/Engine/Source/Programs/MayaLiveLinkPlugin \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/MayaLiveLinkPlugin/Inc/CoreUObject \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/MayaLiveLinkPlugin/Inc/Projects \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/MayaLiveLinkPlugin/Inc/Json \
+	/home/bat/Apps/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Intermediate/Build/Linux/B4D820EA/MayaLiveLinkPlugin/Inc/UdpMessaging \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/MayaLiveLinkPlugin/Inc/LiveLinkInterface \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/MayaLiveLinkPlugin/Inc/LiveLinkMessageBusFramework \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/ShaderCompileWorker/Inc/ShaderCompileWorker \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Programs/ShaderCompileWorker \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/ShaderCompileWorker/Inc/Projects \
@@ -1917,6 +2109,7 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/SlateViewer/Inc/InputCore \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/SlateViewer/Inc/Json \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/SlateViewer/Inc/SlateCore \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/SlateViewer/Inc/ImageWrapper \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/SlateViewer/Inc/Projects \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/SlateViewer/Inc/StandaloneRenderer \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/SlateViewer/Inc/SourceCodeAccess \
@@ -1932,6 +2125,7 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/SymbolDebugger/Inc/InputCore \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/SymbolDebugger/Inc/Json \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/SymbolDebugger/Inc/SlateCore \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/SymbolDebugger/Inc/ImageWrapper \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/SymbolDebugger/Inc/EditorStyle \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/SymbolDebugger/Inc/StandaloneRenderer \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/SymbolDebugger/Inc/DesktopPlatform \
@@ -1952,13 +2146,6 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealCEFSubProcess/Inc/Projects \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealCEFSubProcess/Inc/Json \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealCEFSubProcess/Inc/CEF3Utils \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Programs/UnrealCodeAnalyzer/Public \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Programs/UnrealCodeAnalyzer/Private \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealCodeAnalyzer/Inc/UnrealCodeAnalyzer \
-	/home/bat/Apps/UnrealEngine/Engine/Source/Programs/UnrealCodeAnalyzer \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealCodeAnalyzer/Inc/CoreUObject \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealCodeAnalyzer/Inc/Projects \
-	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealCodeAnalyzer/Inc/Json \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealFileServer/Inc/UnrealFileServer \
 	/home/bat/Apps/UnrealEngine/Engine/Source/Programs/UnrealFileServer \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealFileServer/Inc/DirectoryWatcher \
@@ -1984,6 +2171,7 @@ INCLUDEPATH += \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealFrontend/Inc/Slate \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealFrontend/Inc/Json \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealFrontend/Inc/SlateCore \
+	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealFrontend/Inc/ImageWrapper \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealFrontend/Inc/EditorStyle \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealFrontend/Inc/ProfilerClient \
 	/home/bat/Apps/UnrealEngine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealFrontend/Inc/ProfilerService \
